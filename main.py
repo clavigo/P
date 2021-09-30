@@ -8,3 +8,17 @@ if __name__ == '__main__':
                           phone_number='123654789', email='test@test.test', position='junior', rank=2, salary=500)
     project = Project(title='project', start_date=datetime.now())
     developer.assign(project)
+
+    developer.assigned_projects(developer)
+    developer.assign_possibility(project)
+    developer.unassign(project)
+    developer.assign_possibility(project)
+
+
+    ProjectManager.discuss_progress(developer)
+    
+    
+    #project.add_developer('test')
+    #for x in project.developers: print(x)
+    #project.remove_developer('test')
+    #for x in project.developers: print(x)
