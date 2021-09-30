@@ -4,8 +4,8 @@ from ProjectManager import ProjectManager
 from Developer import Developer
 
 if __name__ == '__main__':
-    developer = Developer(id=1, first_name='test', last_name='test', address='test',
-                          phone_number='123654789', email='test@test.test', position='junior', rank=2, salary=500)
+    developer = Developer(id=1, first_name='Judy', last_name='Alvarez', address='NightCity',
+                          phone_number='682794238', email='JAlv@n.com', position='NUB', rank=1, salary=1000)
     project = Project(title='project', start_date=datetime.now())
     developer.assign(project)
 
